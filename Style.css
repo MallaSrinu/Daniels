@@ -1,0 +1,241 @@
+@media(min-width:320px) and (max-width:767px) {
+    .videomode {
+        width: 350px !important;
+        height: 400px !important;
+    }
+
+    .videodiv {
+        height: 400px !important;
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 28px !important;
+        color: white !important;
+    }
+
+    .heading1 {
+        font-size: 28px !important;
+        color: maroon !important;
+    }
+
+    .btn-size1 {
+        height: 30px !important;
+        font-size: 13px !important;
+    }
+
+    .span1 {
+        font-size: 28px !important;
+        word-wrap: break-word;
+        font-family: Arial;
+    }
+
+    .div-main {
+        height: 100px;
+    }
+
+    .color1 {
+        color: rgb(198,13,71) !important;
+    }
+
+    .color2 {
+        color: white !important;
+    }
+
+    .div-Vip {
+        height: 500px;
+    }
+
+    .vipaccess-style {
+        font: 30px !important;
+    }
+
+    .image1 {
+        height: 50% !important;
+    }
+      .image2 {
+        height: 50% !important;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .videomode {
+        width: 500px !important;
+        height: 500px !important;
+    }
+
+    .videodiv {
+        height: 500px !important;
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 40px !important;
+        color: white !important;
+    }
+
+    .heading1 {
+        font-size: 40px !important;
+        color: maroon !important;
+    }
+
+    .btn-size1 {
+        height: 35px !important;
+        font-size: 18px !important;
+    }
+
+    .span1 {
+        font-size: 35px !important;
+        word-wrap: break-word;
+        font-family: Arial;
+    }
+
+    .div-main {
+        height: 200px;
+    }
+
+    .color1 {
+        color: white !important;
+    }
+
+    .color2 {
+        color: rgb(198,13,71) !important;
+    }
+
+    .div-Vip {
+        height: 440px;
+    }
+
+    .vipaccess-style {
+        font: 35px !important;
+    }
+
+    .image1 {
+        height: 50% !important;
+    }
+      .image2 {
+        height: 50% !important;
+    }
+}
+
+@media(min-width:992px) and (max-width:1024px) {
+    .videomode {
+        width: 500px !important;
+        height: 500px !important;
+    }
+
+    .videodiv {
+        height: 500px !important;
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 50px !important;
+        color: white !important;
+    }
+
+    .heading1 {
+        font-size: 50px !important;
+        color: maroon !important;
+    }
+
+    .btn-size1 {
+        height: 45px !important;
+        font-size: 25px !important;
+    }
+
+    .span1 {
+        font-size: 40px !important;
+        word-wrap: break-word;
+        font-family: Arial;
+    }
+
+    .div-main {
+        height: 320px;
+    }
+
+    .color1 {
+        color: white !important;
+    }
+
+    .color2 {
+        color: rgb(198,13,71) !important;
+    }
+
+    .div-Vip {
+        height: 380px;
+    }
+
+    .image1 {
+        height: 100% !important;
+    }
+       .image2 {
+        height: 100% !important;
+    }
+}
+
+@media(min-width:1024px) {
+    .videomode {
+        width: 600px !important;
+        height: 500px !important;
+    }
+
+    .videodiv {
+        height: 500px !important;
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 60px !important;
+        color: white !important;
+    }
+
+    .heading1 {
+        font-size: 60px !important;
+        color: maroon !important;
+    }
+
+    .btn-size1 {
+        height: 55px !important;
+        font-size: 35px !important;
+    }
+
+    .span1 {
+        font-size: 45px !important;
+        word-wrap: break-word;
+        font-family: Arial;
+    }
+
+    .div-main {
+        height: 420px;
+    }
+
+    .color1 {
+        color: white !important;
+    }
+
+    .color2 {
+        color: rgb(198,13,71) !important;
+    }
+
+    .div-Vip {
+        height: 320px;
+    }
+
+    .image1 {
+        height: 100% !important;
+    }
+        .image2 {
+        height: 100% !important;
+    }
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    color: blue;
+}
