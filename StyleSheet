@@ -1,0 +1,432 @@
+@media(min-width:320px) and (max-width:767px) {
+    .divtop {
+        height: 200px;
+    }
+
+    .videomode {
+        width: 290px !important;
+        height: 305px !important;
+    }
+
+    .videodiv {
+        height: 305px !important;
+        text-align: center;
+        background-color: rgb(46,26,108);
+    }
+
+    .heading {
+        font-size: 28px !important;
+        color: white !important;
+    }
+
+    .heading1 {
+        font-size: 28px !important;
+        color: maroon !important;
+    }
+
+    .btn-size1 {
+        height: 30px !important;
+        font-size: 13px !important;
+        text-align: match-parent;
+        color: white;
+        background-color: rgb(224,39,97);
+    }
+    .btn-size1.focus{
+        background-color:black;
+    }
+    .span1 {
+        font-size: 28px !important;
+        word-wrap: break-word;
+        font-family: Arial;
+    }
+
+    .div-main {
+        height: 100px;
+    }
+
+    .color1 {
+        color: rgb(198,13,71) !important;
+    }
+
+    .color2 {
+        color: white !important;
+    }
+
+    .div-Vip {
+        height: 570px;
+    }
+
+    .div-vipHeight {
+        height: 120%;
+    }
+
+    .vipaccess-style {
+        font-size: 25px !important;
+    }
+
+    .Investment-style {
+        font-size: 20px !important;
+    }
+
+    .img-left {
+        width: 100% !important;
+    }
+
+    .img-right {
+        height: 200px !important;
+        width: 100% !important;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .textProjectandDaneils {
+        font-family: sans-serif;
+        color: black;
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .font1 {
+        font-size: 45px;
+    }
+
+    .LeftRightImg {
+        height: 410px;
+    }
+
+    .projectHeilightHeader {
+        text-align: left;
+    }
+
+    .List1 {
+        padding: 0 5% 15%;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .divtop {
+        height: 270px;
+    }
+
+    .videomode {
+        width: 500px !important;
+        height: 397px !important;
+    }
+
+    .videodiv {
+        height: 397px !important;
+        text-align: center;
+        background-color: rgb(46,26,108);
+    }
+
+    .heading {
+        font-size: 40px !important;
+        color: white !important;
+    }
+
+    .heading1 {
+        font-size: 40px !important;
+        color: maroon !important;
+    }
+
+    .btn-size1 {
+        height: 35px !important;
+        font-size: 18px !important;
+        color: white;
+        text-align: match-parent;
+        background-color: rgb(224,39,97);
+    }
+        .btn-size1.focus{
+        background-color:black;
+    }
+    .span1 {
+        font-size: 35px !important;
+        word-wrap: break-word;
+        font-family: Arial;
+    }
+
+    .div-main {
+        height: 200px;
+    }
+
+    .color1 {
+        color: white !important;
+    }
+
+    .color2 {
+        color: rgb(198,13,71) !important;
+    }
+
+    .div-Vip {
+        height: 440px;
+    }
+
+    .div-vipHeight {
+        height: 100%;
+    }
+
+    .vipaccess-style {
+        font-size: 30px !important;
+    }
+
+    .Investment-style {
+        font-size: 25px !important;
+    }
+
+    .img-left {
+        height: 400px !important;
+        width: 100% !important;
+    }
+
+    .img-right {
+        height: 400px !important;
+        width: 100% !important;
+    }
+
+    .textProjectandDaneils {
+        font-family: sans-serif;
+        color: black;
+        font-size: 35px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .projectHeilightHeader {
+        text-align: center;
+    }
+
+    .List1 {
+        padding: 0 5% 15%;
+    }
+}
+
+@media(min-width:992px) and (max-width:1024px) {
+    .divtop {
+        height: 340px;
+    }
+
+    .videomode {
+        width: 500px !important;
+        height: 397px !important;
+    }
+
+    .videodiv {
+        height: 397px !important;
+        text-align: center;
+        background-color: rgb(46,26,108);
+    }
+
+    .heading {
+        font-size: 50px !important;
+        color: white !important;
+    }
+
+    .heading1 {
+        font-size: 50px !important;
+        color: maroon !important;
+    }
+
+    .btn-size1 {
+        height: 45px !important;
+        font-size: 25px !important;
+        color: white;
+        text-align: match-parent;
+        background-color: rgb(224,39,97);
+    }
+        .btn-size1.focus{
+        background-color:black;
+    }
+
+    .span1 {
+        font-size: 40px !important;
+        word-wrap: break-word;
+        font-family: Arial;
+    }
+
+    .div-main {
+        height: 320px;
+    }
+
+    .color1 {
+        color: white !important;
+    }
+
+    .color2 {
+        color: rgb(198,13,71) !important;
+    }
+
+    .div-Vip {
+        height: 380px;
+    }
+
+    .div-vipHeight {
+        height: 100%;
+    }
+
+    .image1 {
+        height: 100% !important;
+    }
+
+    .img-right {
+        height: 600px !important;
+        width: 100% !important;
+    }
+
+    .textProjectandDaneils {
+        font-family: sans-serif;
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .projectHeilightHeader {
+        text-align: center;
+    }
+
+    .List1 {
+        padding: 0 15% 15%;
+    }
+
+    .vipaccess-style {
+        font-size: 35px !important;
+    }
+
+    .Investment-style {
+        font-size: 30px !important;
+    }
+}
+
+@media(min-width:1024px) {
+    .divtop {
+        height: 410px;
+    }
+
+    .videomode {
+        width: 600px !important;
+        height: 397px !important;
+    }
+
+    .videodiv {
+        height: 397px !important;
+        text-align: center;
+        background-color: rgb(46,26,108);
+    }
+
+    .heading {
+        font-size: 60px !important;
+        color: white !important;
+    }
+
+    .heading1 {
+        font-size: 60px !important;
+        color: maroon !important;
+    }
+
+    .btn-size1 {
+        height: 55px !important;
+        font-size: 35px !important;
+        color: white;
+        text-align: match-parent;
+        background-color: rgb(224,39,97);
+    }
+        .btn-size1.focus{
+        background-color:black;
+    }
+
+    .span1 {
+        font-size: 45px !important;
+        word-wrap: break-word;
+        font-family: Arial;
+    }
+
+    .div-main {
+        height: 420px;
+    }
+
+    .color1 {
+        color: white !important;
+    }
+
+    .color2 {
+        color: rgb(198,13,71) !important;
+    }
+
+    .div-Vip {
+        height: 320px;
+    }
+
+    .div-vipHeight {
+        height: 100%;
+    }
+
+    .img-left {
+        height: 540px !important;
+        width: 100% !important;
+    }
+
+    .img-right {
+        height: 540px !important;
+        width: 100% !important;
+    }
+
+    .textProjectandDaneils {
+        font-family: sans-serif;
+        color: black;
+        font-size: 45px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .LeftRightImg {
+        height: 560px;
+    }
+
+    .projectHeilightHeader {
+        text-align: center;
+    }
+
+    .List1 {
+        padding: 0 15% 15%;
+    }
+
+    .vipaccess-style {
+        font-size: 35px !important;
+    }
+
+    .Investment-style {
+        font-size: 30px !important;
+    }
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid;
+    margin: 1em 0;
+    padding: 0;
+    color: blue;
+    background-color: blue;
+}
+
+button:focus {
+    background-color: black;
+}
+
+.Font2 {
+    font-size: 25px;
+    color: black;
+}
+
+.style2 {
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    color: black;
+    background: white;
+}
