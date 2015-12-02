@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        .image {
+            position: relative;
+        }
+
+        .text {
+            left: 0;
+            position: absolute;
+            text-align: center;
+            top: 30px;
+            width: 100%;
+        }
+    </style>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+        function ChangeColor() {
+            document.getElementById("Button1").style.background = "Black";
+        }
+    </script>
+</head>
+<body data-spy="scroll" data-target="#myScrollspy">
+    <script src="bootstrap.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="npm.js"></script>
+    <link href="style.css" rel="stylesheet" />
+<script>
+    function ChangeColor() {
+        document.getElementById("Button1").style.backgroundColor = "Black";
+    }
+</script>
+    <div class="container-fluid row" data-spy="scroll" data-target="#myScrollspy">
+        <!-- Main Image with Registration Button -->
+        <div class="image">
+            <img src="../Pictures/Daniels-Waterfront-Condos-Aerial-View_HR1.jpg" class="img-responsive" />
+            <div class="text div-main" style=" top: 30px; left: 0;">
+                <section class="section" id="head">
+                    <div class="container divtop col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center">
+                        <p class=" heading !important color1">On&nbsp;The&nbsp;Horizon</p>
+                        <p class="heading1 !important color2">Daniels&nbsp;WaterFront</p>
+                        <br />
+                        <br class="hidden-xs" />
+                        <br class="hidden-xs" />
+                        <br class="hidden-xs" />
+                        <br class="hidden-xs" />
+                        <br class="hidden-xs" />
+                        <br class="hidden-xs" />
+                        <br class="hidden-xs" />
+                        <br class="hidden-xs" />
+                        <br class="hidden-xs" />
+                        <br class="hidden-xs hidden-sm" />
+                        <br class="hidden-xs hidden-sm" />
+                        <br class="hidden-md hidden-sm hidden-xs" />
+                        <br class="hidden-md hidden-sm hidden-xs" />
+                        <br class="hidden-md hidden-sm hidden-xs" />
+                        <br class="hidden-md hidden-sm hidden-xs" />
+                        <button id="Button1" type="button" class="btn btn-default btnlight btn-size1">Register Today</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- Paragraph about site and Registration and Vip access images -->
+        <div class="row" style="padding: 0px 15%">
+            <div>
+                <p class="span1" style="text-align: center!important;">
+                    One&nbsp;of&nbsp;the&nbsp;most anticipated developments by Toronto's Waterfront <span style="color: #ce1717 !important;">IS FINALLY HERE</span>
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12" style="text-align: justify; padding: 10px 15px">
+                    Daniels Waterfront will change and enhance Lower Jarvis & Queens Quay East forever. The area is already quite popular and a very convenient location that will be infused with 650,000 Sq Ft. of brand new, luxurious residential spaces. This 45 Storey Condominium Tower offering residents panoramic lake and city views, exceptional amenities, luxurious suites, and endless conveniences. Suite designs will range from Studios to Spacious Two Bedroom Layouts including Two Floors designed as Ultra Luxurious Penthouse Suites.
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12" style="padding: 10px 15px">
+                    <ul>
+                        <li>
+                            <b>Starting at $246,900</b>
+                        </li>
+                        <li>
+                            <b>Deposit Structure - $5000 on signing, 5% in 30 days, 5% in 120 days, 5% in 365 days, 5% on occupancy</b>
+                        </li>
+                        <li>
+                            <b>Walkscore: 93, Transit Score: 96, Bike Score: 90</b>
+                        </li>
+                        <li>
+                            <b>Maintenance Fees: 56.4 cents/sqft</b>
+                        </li>
+                        <li>
+                            <b>Occupancy Summer 2019</b>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-11 col-xs-offset-1" style="text-align: center">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="padding: 25px;">
+                                <a href="#section2">
+                                    <img src="../Pictures/Vip Access.png" class="img-responsive" style="padding: 0% 0% 0% 30%" />
+                                </a>
+                                <br />
+                                <a class="Font2" style="text-align: center" href="Account/Login.aspx">VIP&nbsp;ACCESS</a>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="padding: 25px;">
+                                <a href="#section1"><img src="../Pictures/email.png" class="img-responsive" style="padding: 0% 0% 0% 30%" /></a>
+                                <br />
+                                <a class="Font2" style="text-align: center" href="#Register">REGISTER&nbsp;ME</a>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="padding: 30px;">
+                                <a href="#section2">
+                                    <img src="../Pictures/Get IN TOUCH.png" class="img-responsive" style="padding: 5% 0% 0% 25%" />
+                                </a>
+                                <br />
+                                <a class="Font2" style="text-align: center;" href="Account/Login.aspx">GET&nbsp;IN&nbsp;TOUCH</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video displaying Portion -->
+        <div class="videodiv container-fluid">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <video class="videomode" controls="" autoplay="" src="http://localhost:14785/Daniels%20Waterfront%20Condos.mp4" />
+            </div>
+        </div>
+
+        <!-- Images displaying Portion -->
+        <div class="container LeftRightImg" style="padding: 0% 7% 0% 7%">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" style="padding: 0px;">
+                <img src="../Pictures/501002-1357032-390x553-ScreenShot20151007at1.12.45PM.png" class="img-responsive img-left " />
+            </div>
+            <div class="col-lg-8 col-md-6 col-sm-12 col-xs-12 " style="padding: 0px;">
+                <img src="../Pictures/501002-1357066-959x553-ScreenShot20151007at1.12.27PM.png" class="img-responsive img-right" />
+            </div>
+        </div>
+
+        <!-- Project Highilights and Daniels WaterFront Session-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12" style="text-align: justify; padding: 10px 40px">
+                    <header class="projectHeilightHeader">
+                        <span class="textProjectandDaneils" style="text-align:left !important; font:Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif !important">Project&nbsp;Highlights</span>
+                    </header>
+
+                    <br />
+                    <ul class="List1">
+                        <li>
+                            <b>Suites starting from $246,900 </b>
+                        </li>
+                        <li>
+                            <b>Deposit Structure: $5000 on Signing</b>
+                        </li>
+                        <li>
+                            <b>Occupancy Summer 2019</b>
+                        </li>
+                        <li>
+                            <b>1 Parking Space & 1 Storage Locker for only $35,800 for suites larger than 605 sqft.(regular price $45,000)</b>
+                        </li>
+                        <li>
+                            <b>Free Locker for all Suites Under 605 sqft.</b>
+                        </li>
+                        <li>
+                            <p>Lighthouse Tower will offer panoramic lake and city views</p>
+
+                        </li>
+                        <li>
+                            <p>Premiere location with no unobstructed views </p>
+                        </li>
+                        <li>
+                            <p>Significant residential, office, retail, academic and cultural component</p>
+                        </li>
+                        <li>
+                            <p>Exceptional amenities offered on the 9th and 14th floor </p>
+                        </li>
+                        <li>
+                            <p>150,000 SF of inspiring retail, office and cultural space</p>
+                        </li>
+                        <li>
+                            <p>Artscape, Last Gang Entertainment, Mainfesto, The Remix Project to date</p>
+                        </li>
+                        <li>
+                            <p>27,000 SF retail space (RBC as well as local and national brand stores, restaurants, and coffee shops)</p>
+                        </li>
+                        <li>
+                            <p>Sugar Beach North – an outdoor gathering place, perfect for music, dance and celebration  </p>
+                        </li>
+                        <li>
+                            <p>An east-west animated outdoor living room featuring an array of trendy retail, cafes, and restaurants</p>
+                        </li>
+                        <li>
+                            <p>Endless conveniences at your doorstep </p>
+                        </li>
+                        <li>
+                            <p>Job increase within the area </p>
+                        </li>
+                        <li>
+                            <p>Minutes from the downtown Core</p>
+                        </li>
+                        <li>
+                            <p>Transit Conveniently Gets You Where You Need To Be With Streetcar, Bus Routes & Union Station Being so Close By  </p>
+                        </li>
+                        <li>
+                            <p>Highway will keep you connected to other neighborhoods</p>
+                        </li>
+                        <li>
+                            <p>Loblaw’s right next door makes grocery shopping easy </p>
+                        </li>
+
+                    </ul>
+                </div>
+                <div id="section1" class="col-md-6 col-lg-6 col-sm-6 col-xs-12" style="text-align: justify; padding: 10px 40px">
+                    <header style="text-align:center">
+                        <span class="textProjectandDaneils" style="text-align: center !important; font:Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif !important">Daniles&nbsp;Waterfront</span>
+                    </header>
+                    <br />
+                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <label for="exampleFirstName ">First Name</label>
+                        <input type="text" id="exampleFirstName" class="form-control col-lg-12 col-md-12 col-sm-12 col-xs-12" placeholder="Required" />
+                    </div>
+                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <label for="exampleLastName">Last Name</label>
+                        <input type="text" id="exampleLastName" class="form-control col-lg-12 col-md-12 col-sm-12 col-xs-12" placeholder="Required" />
+                    </div>
+                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <label for="exampleEmail">Email Address</label>
+                        <input type="email" id="exampleEmail" class="form-control col-lg-12 col-md-12 col-sm-12 col-xs-12" placeholder="Enter Email" />
+                    </div>
+                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <label for="examplePhone">Phone Number</label>
+                        <input type="number" id="examplePhone" class="form-control col-lg-12 col-md-12 col-sm-12 col-xs-12" placeholder="Required" />
+                    </div>
+                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <label for="examplePhone">How Did you Hear About US</label>
+                        <select class="form-control">
+                            <option>-Please Choose-</option>
+                            <option>Email Blast</option>
+                            <option>Google</option>
+                            <option>Family Or Friend</option>
+                            <option>Social Media</option>
+                            <option>Now Tornoto</option>
+                            <option>City Blast</option>
+                            <option>Kijiji</option>
+                            <option>Radio</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <label for="examplePhone">Open House</label>
+                        <select class="form-control">
+                            <option>-Please Choose-</option>
+                            <option>Saturday November 14th, 2015 1:00pm-4:00pm</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <label for="examplePhone">Are you an agent?</label>
+                        <select class="form-control">
+                            <option>-Please Choose-</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <label for="Textarea">comments:</label>
+                        <textarea id="Textarea" class="form-control" rows="5"></textarea>
+                        <br />
+                        <button class="col-lg-offset-5 col-md-offset-5 col-sm-offset-3 col-xs-offset-5">Register Here</button>
+                    </div>
+                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align: justify">
+                        <p style="text-align: center; color: black ;font-size:11px">
+                            Hunny And Mike, | Remax Real Estate Centre. #1-702 - 100 City Centre Drive Suite, <br />
+                            Mississauga, On L5B2C9<br />
+                            info@myinvestmentbrokers.com | <br />
+                            By completing this form, you're agreeing to receive commercial electronic messages. <br />
+                            You'll have the option to unsubscribe at any point in the future.
+                        </p>
+                    </div>
+                    <div>
+                    </div>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+        <div id="section2" class="div-Vip container-fluid" style="padding: 20px 15%; background-color: rgb(193,13,71); font-family: inherit">
+            <div class="row">
+                <header style="text-align: center; color: white">
+                    <h1 class="vipaccess-style">YOUR&nbsp;VIP&nbsp;ACCESS</h1>
+                </header>
+                <div style="text-align:left">
+                   <!-- <hr/>-->
+                </div>
+                <div class="row div-vipHeight">
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12" style="text-align: justify!important; padding: 10px 10% 0% 0%">
+                        <b>Once you Register with MIB, we will Guarantee You First Access to the project before the Public & Other Agents. We are Platinum Agents who have an exceptional relationship with Daniels and are therefore able to Offer you the Lowest Pricing & Best Incentives which can Save You Tens of Thousands of Dollars. Why not be the first to purchase and get exactly what you want?</b>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12" style="text-align: justify; padding: 10px 20px">
+                        <ul style="padding: 0% 10% 0% 10%; text-align: justify; list-style-type: disc; font-size: 17px">
+                            <li style="text-align:justify">
+                                <b>Guaranteed First Access</b>
+                            </li>
+                            <li style="text-align:justify">
+                                <b>Lowest Prices</b>
+                            </li>
+                            <li style="text-align:justify">
+                                <b>Special Investor Incentives</b>
+                            </li>
+                            <li style="text-align:justify">
+                                <b>Save Tens of Thousands of Dollars</b>
+                            </li>
+                            <li>
+                                <b>Platinum VIP Insider Deposit Structure</b>
+                            </li>
+                            <li style="text-align:justify">
+                                <p><b>Capped Development Charges & Levis</b> </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+        <div id="section3" class="container-fluid" style="padding: 20px 15%; background-color: rgb(47,47,47); font-family: inherit">
+            <div class="row">
+                <header>
+                    <h1 class=" Investment-style" style="text-align: center;"><a href="http://www.myinvestmentbrokers.com/" style="color: white" target="_blank">www.My&nbsp;Investment&nbsp;Brokers.com</a></h1>
+                    <hr/>
+                </header>
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12" style="text-align: justify!important; padding: 10px 20px">
+                        <p style="text-align: center; color: white">
+                            Hunny Gawri<br />
+                            647 284 4869<br />
+                            Hunny@myinvestmentbrokers.com<br />
+                            Re/Max Real Estate Centre Inc., Brokerage<br />
+                            Sales Representative
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12" style="text-align: justify; padding: 10px 20px">
+                        <p style="text-align: center; color: white">
+                            Hunny Gawri<br />
+                            647 284 4869<br />
+                            Hunny@myinvestmentbrokers.com<br />
+                            Re/Max Real Estate Centre Inc., Brokerage<br />
+                            Sales Representative
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
